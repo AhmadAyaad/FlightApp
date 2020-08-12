@@ -1,0 +1,84 @@
+[
+  {
+    "flightId": 1,
+    "coupons": [
+      {
+        "couponId": 1,
+        "couponType": 0,
+        "ticket": null,
+        "pieceOfLuggage": []
+      },
+      {
+        "couponId": 2,
+        "couponType": 0,
+        "ticket": null,
+        "pieceOfLuggage": []
+      }
+    ],
+    "flightNumber": {
+      "flightNumberId": 1,
+      "departure": "2010-02-01T00:00:00",
+      "description": "aaaaa",
+      "airLine": "EgyptAir",
+      "flights": [],
+      
+      "airport": {
+        "airportId": 1,
+        "airportName": "Cairo",
+        "airportLocation": "Egypt",
+        "destinationFlightsNumbers": [
+          {
+            "flightNumberId": 3,
+            "departure": "2011-04-07T00:00:00",
+            "description": "bbbb",
+            "airLine": "Egypt Air",
+            "flights": [
+              {
+                "flightId": 3
+              }
+            ]
+          }
+        ]
+      }
+    }
+    }
+  },
+  {
+    "flightId": 2,
+    "coupons": [
+      {
+        "couponId": 3,
+        "couponType": 1,
+        "ticket": null,
+        "pieceOfLuggage": []
+      }
+    ],
+    "flightNumber": {
+      "flightNumberId": 2,
+      "departure": "2015-03-09T00:00:00",
+      "description": "wwww",
+      "airLine": "Emirates",
+      "flights": [],
+      "airport": null
+    }
+  },
+  {
+    "flightId": 3,
+    "coupons": [
+      {
+        "couponId": 4,
+        "couponType": 1,
+        "ticket": null,
+        "pieceOfLuggage": []
+      }
+    ],
+    "flightNumber": {
+      "flightNumberId": 3,
+      "departure": "2011-04-07T00:00:00",
+      "description": "bbbb",
+      "airLine": "Egypt Air",
+      "flights": [],
+      "airport": null
+    }
+  }
+]

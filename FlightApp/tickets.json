@@ -1,0 +1,259 @@
+[
+  {
+    "ticketId": 1,
+    "customer": {
+      "customerId": 1,
+      "name": "ahmad",
+      "tickets": [
+        {
+          "ticketId": 2
+
+        },
+        {
+          "ticketId": 3
+        },
+        {
+          "ticketId": 4
+        },
+        {
+          "ticketId": 5
+        }
+      ]
+    },
+    "coupons": [
+      {
+        "couponId": 1,
+        "couponType": 0
+      },
+      {
+        "couponId": 2,
+        "couponType": 0
+      },
+      {
+        "couponId": 3,
+        "couponType": 1,
+        "pieceOfLuggage": [
+          {
+            "luggaageId": 1,
+            "weight": 50.0
+          }
+        ]
+
+      },
+      {
+        "couponId": 4,
+        "couponType": 1,
+        "pieceOfLuggage": [
+          {
+            "luggaageId": 2,
+            "weight": 70.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ticketId": 2,
+    "customer": {
+      "customerId": 1,
+      "name": "ahmad",
+      "tickets": [
+        {
+          "ticketId": 1,
+          "coupons": [
+            {
+              "couponId": 1,
+              "couponType": 0
+            },
+            {
+              "couponId": 2,
+              "couponType": 0
+            },
+            {
+              "couponId": 3,
+              "couponType": 1,
+              "pieceOfLuggage": [
+                {
+                  "luggaageId": 1,
+                  "weight": 50.0
+                }
+              ]
+            },
+            {
+              "couponId": 4,
+              "couponType": 1,
+              "pieceOfLuggage": [
+                {
+                  "luggaageId": 2,
+                  "weight": 70.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ticketId": 3
+        },
+        {
+          "ticketId": 4
+        },
+        {
+          "ticketId": 5
+        }
+      ]
+    }
+  },
+  {
+    "ticketId": 3,
+    "customer": {
+      "customerId": 1,
+      "name": "ahmad",
+      "tickets": [
+        {
+          "ticketId": 1,
+          "coupons": [
+            {
+              "couponId": 1,
+              "couponType": 0
+            },
+            {
+              "couponId": 2,
+              "couponType": 0
+            },
+            {
+              "couponId": 3,
+              "couponType": 1,
+              "pieceOfLuggage": [
+                {
+                  "luggaageId": 1,
+                  "weight": 50.0
+                }
+              ]
+            },
+            {
+              "couponId": 4,
+              "couponType": 1,
+              "pieceOfLuggage": [
+                {
+                  "luggaageId": 2,
+                  "weight": 70.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ticketId": 2
+        },
+        {
+          "ticketId": 4
+        },
+        {
+          "ticketId": 5
+        }
+      ]
+    }
+  },
+  {
+    "ticketId": 4,
+    "customer": {
+      "customerId": 1,
+      "name": "ahmad",
+      "tickets": [
+        {
+          "ticketId": 1,
+          "coupons": [
+            {
+              "couponId": 1,
+              "couponType": 0
+            },
+            {
+              "couponId": 2,
+              "couponType": 0
+            },
+            {
+              "couponId": 3,
+              "couponType": 1,
+              "pieceOfLuggage": [
+                {
+                  "luggaageId": 1,
+                  "weight": 50.0
+                }
+              ]
+            },
+            {
+              "couponId": 4,
+              "couponType": 1,
+              "pieceOfLuggage": [
+                {
+                  "luggaageId": 2,
+                  "weight": 70.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ticketId": 2
+        },
+        {
+          "ticketId": 3
+        },
+        {
+          "ticketId": 5
+        }
+      ]
+    }
+  },
+  {
+    "ticketId": 5,
+    "customer": {
+      "customerId": 1,
+      "name": "ahmad",
+      "tickets": [
+        {
+          "ticketId": 1,
+          "coupons": [
+            {
+              "couponId": 1,
+              "couponType": 0
+            },
+            {
+              "couponId": 2,
+              "couponType": 0
+            },
+            {
+              "couponId": 3,
+              "couponType": 1,
+              "pieceOfLuggage": [
+                {
+                  "luggaageId": 1,
+                  "weight": 50.0
+                }
+              ]
+            },
+            {
+              "couponId": 4,
+              "couponType": 1,
+              "pieceOfLuggage": [
+                {
+                  "luggaageId": 2,
+                  "weight": 70.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ticketId": 2
+        },
+        {
+          "ticketId": 3
+        },
+        {
+          "ticketId": 4
+        }
+      ]
+    }
+  }
+]

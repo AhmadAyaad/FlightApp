@@ -1,0 +1,45 @@
+[
+  {
+    "couponId": 1,
+    "couponType": 0,
+    "ticket": {
+      "TicketId" :  1
+    },
+    "flight": {
+      "flightId": 1,
+      "flightNumber": {
+        "flightNumberId": 1,
+        "departure": "2010-02-01",
+        "description": "aaaa",
+        "airline": "Egypt Air"
+      }
+
+    }
+  },
+  {
+    "couponId": 2,
+    "couponType": 0,
+    "ticket": {
+      "TicketId": 1
+    },
+    "flight": {
+      "flightId": 1,
+      "flightNumber": {
+        "flightNumber": {
+          "flightNumberId": 2,
+          "departure": "2010-02-01",
+          "description": "www",
+          "airline": "Qatr"
+        }
+      }
+    }
+  },
+  {
+    "couponId": 3,
+    "couponType": 1
+  },
+  {
+    "couponId": 4,
+    "couponType": 1
+  }
+]

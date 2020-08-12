@@ -1,0 +1,11 @@
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\obj\Debug\netcoreapp2.1\FlightApp.csprojAssemblyReference.cache
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\obj\Debug\netcoreapp2.1\FlightApp.csproj.CoreCompileInputs.cache
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\obj\Debug\netcoreapp2.1\FlightApp.AssemblyInfoInputs.cache
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\obj\Debug\netcoreapp2.1\FlightApp.AssemblyInfo.cs
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\bin\Debug\netcoreapp2.1\FlightApp.deps.json
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\bin\Debug\netcoreapp2.1\FlightApp.runtimeconfig.json
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\bin\Debug\netcoreapp2.1\FlightApp.runtimeconfig.dev.json
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\bin\Debug\netcoreapp2.1\FlightApp.dll
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\bin\Debug\netcoreapp2.1\FlightApp.pdb
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\obj\Debug\netcoreapp2.1\FlightApp.dll
+C:\Users\ahmed.ayaad\source\repos\FlightApp\FlightApp\obj\Debug\netcoreapp2.1\FlightApp.pdb

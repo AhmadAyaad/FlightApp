@@ -1,0 +1,77 @@
+[
+  {
+    "flightNumberId": 1,
+    "departure": "2010-02-01T00:00:00",
+    "description": "aaaaa",
+    "airLine": "EgyptAir",
+    "flights": [
+      {
+        "flightId": 1
+      }
+    ],
+    "airport": {
+      "airportId": 1,
+      "airportName": "Cairo",
+      "airportLocation": "Egypt",
+      "destinationFlightsNumbers": [
+        {
+          "flightNumberId": 3,
+          "departure": "2011-04-07T00:00:00",
+          "description": "bbbb",
+          "airLine": "Egypt Air",
+          "flights": [
+            {
+              "flightId": 3
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "flightNumberId": 2,
+    "departure": "2015-03-09T00:00:00",
+    "description": "wwww",
+    "airLine": "Emirates",
+    "flights": [
+      {
+        "flightId": 2
+      }
+    ],
+    "airport": {
+      "airportId": 2,
+      "airportName": "Doha",
+      "airportLocation": "Qatr",
+      "destinationFlightsNumbers": []
+    }
+  },
+  {
+    "flightNumberId": 3,
+    "departure": "2011-04-07T00:00:00",
+    "description": "bbbb",
+    "airLine": "Egypt Air",
+    "flights": [
+      {
+        "flightId": 3
+      }
+    ],
+    "airport": {
+      "airportId": 1,
+      "airportName": "Cairo",
+      "airportLocation": "Egypt",
+      "destinationFlightsNumbers": [
+        {
+          "flightNumberId": 1,
+          "departure": "2010-02-01T00:00:00",
+          "description": "aaaaa",
+          "airLine": "EgyptAir",
+          "flights": [
+            {
+              "flightId": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

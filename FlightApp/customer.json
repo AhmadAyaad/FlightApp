@@ -1,0 +1,35 @@
+[
+  {
+    "customerId": 1,
+    "name": "ahmad",
+    "tickets": [
+      {
+        "ticketId": 1
+      },
+      {
+        "ticketId": 2
+      },
+      {
+        "ticketId": 3
+      },
+      {
+        "ticketId": 4
+      },
+      {
+        "ticketId": 5
+      }
+    ]
+  },
+  {
+    "customerId": 2,
+    "name": "ayad"
+  },
+  {
+    "customerId": 3,
+    "name": "khaled"
+  },
+  {
+    "customerId": 4,
+    "name": "islam"
+  }
+]
