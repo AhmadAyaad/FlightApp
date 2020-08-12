@@ -11,8 +11,27 @@
         "flightNumberId": 1,
         "departure": "2010-02-01",
         "description": "aaaa",
-        "airline": "Egypt Air"
+        "airline": "Egypt Air",
+        "airport": {
+          "airportId": 1,
+          "airportName": "Cairo",
+          "airportLocation": "Egypt",
+          "destinationFlightsNumbers": [
+            {
+              "flightNumberId": 3,
+              "departure": "2011-04-07T00:00:00",
+              "description": "bbbb",
+              "airLine": "Egypt Air",
+              "flights": [
+                {
+                  "flightId": 3
+                }
+              ]
+            }
+          ]
+        }
       }
+      
 
     }
   },

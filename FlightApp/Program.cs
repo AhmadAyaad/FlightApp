@@ -25,6 +25,7 @@ namespace FlightApp
 
             }
 
+            Console.WriteLine("_______________________________________________\n");
 
 
             TicketRepository ticketRepository = new TicketRepository();
@@ -44,48 +45,36 @@ namespace FlightApp
 
             CouponRepository couponRepository = new CouponRepository();
             var couponDetails = couponRepository.GetCouponDetails(1);
-
+            Console.WriteLine("_______________________________________________\n");
             Console.WriteLine("couponDetails");
 
             Console.WriteLine(couponDetails);
 
             if (couponDetails.Flight != null) {
+                Console.WriteLine("_______________________________________________\n");
+
                 Console.WriteLine($"Coupon flights details {couponDetails.Flight}" );
+
+                Console.WriteLine("_______________________________________________\n");
+
+                Console.WriteLine("Flight number details :");
+
+                Console.WriteLine($"Airline: {couponDetails.Flight.FlightNumber.AirLine}");
+                Console.WriteLine($"Departure: {couponDetails.Flight.FlightNumber.Departure}");
+                Console.WriteLine($"Description: {couponDetails.Flight.FlightNumber.Description}");
+
+                Console.WriteLine("_______________________________________________\n");
+                Console.WriteLine("Airport details :");
+
+                Console.WriteLine($"Airport id: {couponDetails.Flight.FlightNumber.Airport.AirportId }");
+                Console.WriteLine($"Airport Name: {couponDetails.Flight.FlightNumber.Airport.AirportName}");
+                Console.WriteLine($"Airport Location: {couponDetails.Flight.FlightNumber.Airport.AirportLocation}");
                 
-                Console.WriteLine($"Flight number : {couponDetails.Flight.FlightNumber}");
+
             }
 
 
 
-
-
-
-            //FlightRepository flightRepository = new FlightRepository();
-            //var flights = flightRepository.GetFlights();
-
-            ////var couponFlights = flights.SelectMany(f => f.Coupons)
-            ////                .Where(c => c.CouponId == couponDetails.CouponId).ToList();
-
-            //var flag = false;
-
-
-            //foreach (var item in flights)
-            //{
-            //    foreach (var item2 in item.Coupons)
-            //    {
-            //        if (item2.CouponId == couponDetails.CouponId)
-            //            flag = true;
-            //    }
-            //    if(flag)
-            //        Console.WriteLine(item);
-            //    flag = false;
-            //}
-            //if (cf != null)
-            //    foreach (var item in couponFlights)
-            //        Console.WriteLine(item.Flight);
-
-            //FlightNumbersRepository flightNumbersRepository = new FlightNumbersRepository();
-            //var flightNumbers = flightNumbersRepository.GetFlightNumbers();
 
 
 
